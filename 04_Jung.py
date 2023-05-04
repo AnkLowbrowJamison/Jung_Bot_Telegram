@@ -2,7 +2,6 @@ from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
 from dotenv import load_dotenv
 import telegram
 import openai
-import time
 import os
 
 load_dotenv()
